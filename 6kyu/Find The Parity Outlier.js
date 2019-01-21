@@ -7,7 +7,7 @@ var result = findOutlier([2, 3, 8, 12, 20]);
 
 console.log(result);
 
-// other wersion without unnesesary .parseInt()
+// Other version without unnecessary parseInt()
 /*
 function findOutlier(integers) {
   var oddNumbers = integers.filter((e) => e % 2 != 0);
